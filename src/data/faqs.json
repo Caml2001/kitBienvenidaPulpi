@@ -1,0 +1,40 @@
+{
+  "faqs": [
+    {
+      "question": "¿Qué pasa si cambio de trabajo?",
+      "answer": "Si cambias de trabajo, nos pondremos en contacto contigo para establecer un plan de pagos alternativo que se ajuste a tu nueva situación laboral."
+    },
+    {
+      "question": "¿Cuánto tiempo toma el proceso de aprobación?",
+      "answer": "El proceso de aprobación es rápido y puede tomar entre 24 a 48 horas hábiles una vez que hayas proporcionado toda la documentación necesaria."
+    },
+    {
+      "question": "¿Qué documentos necesito?",
+      "answer": "Necesitarás tu identificación oficial vigente, comprobante de domicilio reciente, últimos 3 recibos de nómina y estado de cuenta bancario."
+    },
+    {
+      "question": "¿Puedo retirar de cualquier cajero automático?",
+      "answer": "¡Claro que sí! Puedes hacer un retiro donde quieras."
+    },
+    {
+      "question": "¿Hay alguna comisión por retirar dinero en cajeros automáticos?",
+      "answer": "Dos retiros al mes van por nuestra cuenta, después se comienza a cobrar una comisión."
+    },
+    {
+      "question": "¿Se cobra algún cargo por transferencias? ¿Existe algún límite de movimientos?",
+      "answer": "No se cobra ningún cargo por hacer transferencias o movimientos."
+    },
+    {
+      "question": "¿Cómo puedo saber el monto máximo que puedo solicitar?",
+      "answer": "De forma personalizada lo puedes ver en tu app finsus."
+    },
+    {
+      "question": "¿Cuánto tiempo tarda en aprobarse mi crédito?",
+      "answer": "¡Es inmediato! Puedes disponer de tu crédito cuando lo necesites, sin pasar por procesos largos y aburridos de aprobación."
+    },
+    {
+      "question": "¿Puedo adelantar pagos de mi crédito sin penalización?",
+      "answer": "¡Claro! Puedes adelantar tu crédito y no hay ninguna penalización."
+    }
+  ]
+}
