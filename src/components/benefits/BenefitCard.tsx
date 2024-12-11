@@ -1,7 +1,8 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import { motion } from 'framer-motion';
 import { ArrowRight } from 'lucide-react';
 import { FadeIn } from '../animations/FadeIn';
+import { CalculatorContext } from '../../App';
 
 interface BenefitFeature {
   title: string;
@@ -18,6 +19,8 @@ interface BenefitCardProps {
 }
 
 export function BenefitCard({ title, icon, features, description, isCompact = false }: BenefitCardProps) {
+  const { toggleCalculator } = useContext(CalculatorContext);
+
   if (isCompact) {
     return (
       <FadeIn>
@@ -37,6 +40,7 @@ export function BenefitCard({ title, icon, features, description, isCompact = fa
           <p className="text-gray-600 mb-8 flex-grow">{description}</p>
 
           <motion.button
+            onClick={toggleCalculator}
             whileHover={{ scale: 1.02 }}
             whileTap={{ scale: 0.98 }}
             className="w-full bg-[#23223F] text-white py-4 px-6 rounded-xl font-semibold flex items-center justify-center gap-2 hover:bg-[#FF5F54] transition-colors mt-auto"
@@ -66,6 +70,7 @@ export function BenefitCard({ title, icon, features, description, isCompact = fa
           <h3 className="text-2xl font-bold text-[#23223F] mb-4">{title}</h3>
 
           <motion.button
+            onClick={toggleCalculator}
             whileHover={{ scale: 1.02 }}
             whileTap={{ scale: 0.98 }}
             className="w-full bg-[#23223F] text-white py-4 px-6 rounded-xl font-semibold flex items-center justify-center gap-2 hover:bg-[#FF5F54] transition-colors"

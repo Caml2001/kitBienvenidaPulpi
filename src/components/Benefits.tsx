@@ -72,7 +72,7 @@ export function Benefits() {
       <div className="container mx-auto px-4 relative">
         <FadeIn>
           <h2 className="text-4xl font-bold text-[#23223F] text-center mb-4">
-            Descubre por qué elegir Finsus
+            ¿Por qué elegir Finsus?
           </h2>
         </FadeIn>
         

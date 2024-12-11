@@ -38,13 +38,13 @@ export function Header() {
             <div className="relative z-10 max-w-3xl">
               <FadeIn delay={0.5}>
                 <h1 className="text-5xl md:text-6xl font-bold text-[#FF5F54] mb-6 md:mb-8 leading-tight">
-                  ¡Bienvenido a finsus!
+                  Descubre tus Beneficios por Tener tu Nómina en Finsus
                 </h1>
               </FadeIn>
               
               <FadeIn delay={0.7}>
                 <p className="text-2xl md:text-2xl text-white/90 mb-8 md:mb-10">
-                  Estamos emocionados y contentos de tenerte en finsus, donde nosotros nos encargaremos de ser tu aliado financiero y ofrecerte el servicio que mereces.
+                  Estamos emocionados y contentos de tenerte en finsus y ofrecerte el servicio que mereces.
                 </p>
               </FadeIn>
               

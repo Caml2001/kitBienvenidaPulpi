@@ -10,11 +10,11 @@ const products = [
     title: 'Retiro Inmediato',
     description: 'Retira hasta el 35% de tu sueldo del periodo, sin complicaciones.',
     benefits: [
-      'Acceso 25/7.',
-      'Sin largos procesos de aprobación'
+      'Acceso 24/7.',
+      'Sin largos procesos de aprobación.'
     ],
     conditions: [
-      '2 meses recibiendo tu nómina en finsus'
+      '2 meses recibiendo tu nómina en finsus.'
     ],
     ctaText: 'Solicitar mi retiro ahora',
     icon: <Wallet className="w-8 h-8 text-[#FF5F54]" />
@@ -23,12 +23,12 @@ const products = [
     title: 'Adelanto de nómina',
     description: 'Recibe un adelanto desde hasta de un mes de sueldo para cubrir tus necesidades inmediatas.',
     benefits: [
-      'Plazos flexibles de hasta 4 meses',
-      'Descuento directo vía nómina'
+      'Plazos flexibles desde 4 meses.',
+      'Descuento directo vía nómina.'
     ],
     conditions: [
-      '6 meses de antigüedad',
-      'Comisión del 20% del monto solicitado'
+      '6 meses de antigüedad.',
+      'Comisión del 20% del monto solicitado.'
     ],
     ctaText: 'Solicitar adelanto',
     icon: <Clock className="w-8 h-8 text-[#FF5F54]" />
@@ -37,12 +37,12 @@ const products = [
     title: 'Préstamo de nómina',
     description: 'Accede a un préstamo de hasta tres meses de sueldo, con plazos hasta de 18 meses.',
     benefits: [
-      'Financiamiento a largo plazo',
-      'Comisiones competitivas y tasa de interés transparente'
+      'Financiamiento a largo plazo.',
+      'Comisiones competitivas y tasa de interés transparente.'
     ],
     conditions: [
-      '1 año de antigüedad en tu empleo',
-      'Comisión del 5% del monto solicitado + tasa de interés'
+      '1 año de antigüedad en tu empleo.',
+      'Comisión del 5% del monto solicitado + tasa de interés.'
     ],
     ctaText: 'Solicitar mi préstamo',
     icon: <CreditCard className="w-8 h-8 text-[#FF5F54]" />
@@ -75,15 +75,6 @@ export function Products() {
             <ProductCard key={index} {...product} />
           ))}
         </motion.div>
-
-        <div className="mt-32">
-          <FadeIn>
-            <h3 className="text-3xl font-bold text-[#23223F] text-center mb-12">
-              Compara nuestros productos
-            </h3>
-          </FadeIn>
-          <ComparisonTable />
-        </div>
       </div>
     </section>
   );

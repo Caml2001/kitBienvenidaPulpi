@@ -1,7 +1,8 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import { motion } from 'framer-motion';
 import { ArrowRight } from 'lucide-react';
 import { FadeIn } from '../animations/FadeIn';
+import { CalculatorContext } from '../../App';
 
 interface ProductCardProps {
   title: string;
@@ -13,6 +14,8 @@ interface ProductCardProps {
 }
 
 export function ProductCard({ title, description, benefits, conditions, ctaText, icon }: ProductCardProps) {
+  const { toggleCalculator } = useContext(CalculatorContext);
+
   return (
     <FadeIn>
       <motion.div
@@ -31,6 +34,7 @@ export function ProductCard({ title, description, benefits, conditions, ctaText,
           <p className="text-gray-600 mb-6">{description}</p>
 
           <motion.button
+            onClick={toggleCalculator}
             whileHover={{ scale: 1.02 }}
             whileTap={{ scale: 0.98 }}
             className="w-full bg-[#23223F] text-white py-4 px-6 rounded-xl font-semibold flex items-center justify-center gap-2 hover:bg-[#FF5F54] transition-colors"
